@@ -1,0 +1,39 @@
+.welcomeBanner {
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  backdrop-filter: blur(5px);
+}
+
+.welcomeBanner img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.centerImg {
+  height: 450px;
+  transform: translateX(-50%) translateY(-50%);
+  box-shadow: 0 0 10px 2px rgba(33, 33, 33, 0.4);
+}
+
+.leftImg {
+  width: 450px;
+  transform: translateX(-800px) translateY(-100px);
+}
+
+.rightImg {
+  width: 450px;
+  transform: translateX(400px) translateY(-500px);
+}
+
+.topImg {
+  height: 450px;
+  transform: translateX(-1000px) translateY(-500px);
+}
+
+.bottomImg {
+  height: 450px;
+  transform: translateX(200px) translateY(100px);
+}

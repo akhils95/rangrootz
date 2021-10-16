@@ -1,0 +1,103 @@
+.welcomePage {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-color: rgb(31, 31, 31);
+  background-image: url(../assets/Portfolio/H2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.page {
+  padding-top: 70px;
+  min-height: calc(100vh - 70px);
+  background-color: whitesmoke;
+}
+
+.bannerCover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(1px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  flex-direction: column;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+}
+
+h1 {
+  font-size: 3em;
+  padding: 10px 0;
+}
+
+h3 {
+  display: flex;
+  align-items: center;
+  margin: 7px 0;
+  font-weight: 400;
+}
+
+.icon {
+  height: 1.5em;
+  margin-left: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.button {
+  margin-top: 70px;
+  font-weight: bold;
+  color: white;
+  padding: 10px 30px;
+  border: solid white 3px;
+  border-radius: 10px;
+}
+
+.button:hover {
+  background-color: white;
+  color: #000;
+}
+
+.imageViewer {
+  z-index: 100;
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imageViewer img {
+  max-width: 100vw;
+  max-height: 100vh;
+}
+
+.imageCover {
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.extraPad {
+  padding-top: 100px;
+  padding-bottom: 30px;
+}
