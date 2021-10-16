@@ -1,5 +1,6 @@
 {
   "name": "rangrootz-productions",
+  "host": "http://www.rangrootzproduction.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
