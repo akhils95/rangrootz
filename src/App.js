@@ -23,7 +23,7 @@ function App() {
     <div style = {{width:"100%"}}>
       { <Header visible = {!((routeResults != null) && (routeResults.type.name === "Welcome"))} /> }
       { routeResults || <NotFound/> }
-      <Footer />
+      <Footer visible = {!((routeResults != null) && (routeResults.type.name === "Welcome"))} />
     </div>
   );
 }

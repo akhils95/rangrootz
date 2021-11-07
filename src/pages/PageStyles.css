@@ -39,6 +39,7 @@
 h1 {
   font-size: 3em;
   padding: 10px 0;
+  text-align: center;
 }
 
 h3 {
@@ -46,6 +47,7 @@ h3 {
   align-items: center;
   margin: 7px 0;
   font-weight: 400;
+  text-align: center;
 }
 
 .icon {

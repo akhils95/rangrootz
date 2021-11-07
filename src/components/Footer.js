@@ -2,7 +2,7 @@ import './ComponentStyles.css';
 import { Facebook, Instagram } from '../assets/Icons/Icons';
 import { useState, useEffect } from 'react';
 
-const Footer = () => {
+const Footer = (visible) => {
 
     const [year, setYear] = useState("");
 
@@ -12,8 +12,8 @@ const Footer = () => {
     },[])
 
     return(
-        <div className="footer">
-            <p className="footerCopyright">
+        <div className = {visible.visible ? "footer" : "hidden"}>
+            <p className = "footerCopyright">
                 <span>&#169; { year } Rangrootz Production,</span>
                 <span> </span>
                 <span>All Rights Reserved</span>

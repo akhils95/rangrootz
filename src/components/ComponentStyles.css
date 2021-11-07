@@ -234,9 +234,44 @@
     flex-direction: column;
   }
 
+  .footer p {
+    margin-bottom: 20px;
+  }
+
   .footerCopyright {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  .header {
+    justify-content: right;
+    padding-right: 15px;
+  }
+
+  .headerLogo {
+    text-align: right;
+  }
+  .menuLogo {
+    text-align: right;
+  }
+
+  .hamburger {
+    width: 30px;
+    height: 27px;
+    left: 15px;
+  }
+
+  .hamburger span {
+    height: 5px;
+  }
+
+  .hamburger span:nth-child(2),
+  .hamburger span:nth-child(3) {
+    top: 16px;
+  }
+
+  .hamburger span:nth-child(4) {
+    top: 32px;
   }
 }
