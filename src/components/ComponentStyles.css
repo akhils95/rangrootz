@@ -247,13 +247,18 @@
   .header {
     justify-content: right;
     padding-right: 15px;
+    font-size: 1em;
   }
 
   .headerLogo {
     text-align: right;
   }
+
   .menuLogo {
     text-align: right;
+    justify-content: right;
+    padding-right: 15px;
+    font-size: 1em;
   }
 
   .hamburger {

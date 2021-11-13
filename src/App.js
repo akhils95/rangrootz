@@ -21,6 +21,7 @@ function App() {
 
   return (
     <div style = {{width:"100%"}}>
+      {console.log(routeResults.type.name)}
       { <Header visible = {!((routeResults != null) && (routeResults.type.name === "Welcome"))} /> }
       { routeResults || <NotFound/> }
       <Footer visible = {!((routeResults != null) && (routeResults.type.name === "Welcome"))} />
