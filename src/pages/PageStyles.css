@@ -36,13 +36,13 @@
   font-family: "Raleway", sans-serif;
 }
 
-h1 {
-  font-size: 3em;
+.page h1 {
+  font-size: 1.5em;
   padding: 10px 0;
   text-align: center;
 }
 
-h3 {
+.page h3 {
   display: flex;
   align-items: center;
   margin: 7px 0;

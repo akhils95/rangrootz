@@ -21,13 +21,12 @@ function App() {
 
   return (
     <div style = {{width:"100%"}}>
-      {console.log(routeResults.type.name)}
-      {/* { <Header visible = {!((routeResults != null) && (routeResults.type.name === "Welcome"))} /> }
+      {/* <Header visible = {!(((routeResults != null) && (routeResults.type.name === "Welcome")) || routeResults == null)} />
       { routeResults != null ? routeResults : <NotFound/> }
-      <Footer visible = {!((routeResults != null) && (routeResults.type.name === "Welcome"))} /> */}
-      { <Header visible = {!((routeResults != null) && (routeResults.type.name === "u"))} /> }
+      <Footer visible = {!(((routeResults != null) && (routeResults.type.name === "Welcome")) || routeResults == null)} /> */}
+      <Header visible = {!(((routeResults != null) && (routeResults.type.name === "u")) || routeResults == null)} />
       { routeResults != null ? routeResults : <NotFound/> }
-      <Footer visible = {!((routeResults != null) && (routeResults.type.name === "u"))} />
+      <Footer visible = {!(((routeResults != null) && (routeResults.type.name === "u")) || routeResults == null)} />
     </div>
   );
 }

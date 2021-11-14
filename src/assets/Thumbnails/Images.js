@@ -1,0 +1,35 @@
+import H1 from './H1.jpg';
+import H2 from './H2.jpg';
+import H3 from './H3.jpg';
+import H4 from './H4.jpg';
+import H5 from './H5.jpg';
+import H6 from './H6.jpg';
+import H7 from './H7.jpg';
+import H8 from './H8.jpg';
+import H9 from './H9.jpg';
+import H10 from './H10.jpg';
+import H11 from './H11.jpg';
+import H12 from './H12.jpg';
+import H13 from './H13.jpg';
+import H14 from './H14.jpg';
+import H15 from './H15.jpg';
+import H16 from './H16.jpg';
+import V1 from './V1.jpg';
+import V2 from './V2.jpg';
+import V3 from './V3.jpg';
+import V4 from './V4.jpg';
+import V5 from './V5.jpg';
+import V6 from './V6.jpg';
+import V7 from './V7.jpg';
+import V8 from './V8.jpg';
+import V9 from './V9.jpg';
+import V10 from './V10.jpg';
+import V11 from './V11.jpg';
+import V12 from './V12.jpg';
+import V13 from './V13.jpg';
+import V14 from './V14.jpg';
+import V15 from './V15.jpg';
+import V16 from './V16.jpg';
+
+export {H1, H2, H3, H4, H5, H6, H7, H8, H9, H10, H11, H12, H13, H14, H15, H16, V1, V2, V3, V4, V5, V6, V7, V8, V9,
+ V10, V11, V12, V13, V14, V15, V16};
