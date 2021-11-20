@@ -21,12 +21,9 @@ function App() {
 
   return (
     <div style = {{width:"100%"}}>
-      {/* <Header visible = {!(((routeResults != null) && (routeResults.type.name === "Welcome")) || routeResults == null)} />
+      <Header visible = {(window.location.pathname.includes("home") || window.location.pathname.includes("portfolio"))} />
       { routeResults != null ? routeResults : <NotFound/> }
-      <Footer visible = {!(((routeResults != null) && (routeResults.type.name === "Welcome")) || routeResults == null)} /> */}
-      <Header visible = {!(((routeResults != null) && (routeResults.type.name === "u")) || routeResults == null)} />
-      { routeResults != null ? routeResults : <NotFound/> }
-      <Footer visible = {!(((routeResults != null) && (routeResults.type.name === "u")) || routeResults == null)} />
+      <Footer visible = {(window.location.pathname.includes("home") || window.location.pathname.includes("portfolio"))} />
     </div>
   );
 }
