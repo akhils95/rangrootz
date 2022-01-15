@@ -9,6 +9,7 @@ const Portfolio = () => {
 
     return (
         <div className="page extraPad">
+            <h1>Checkout Some of our work...</h1>
             <GridGallery />
         </div>
     )

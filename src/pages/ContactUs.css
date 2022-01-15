@@ -1,0 +1,67 @@
+.cameraScreen {
+  height: calc(100vh - 80px);
+  position: relative;
+  background: #333;
+}
+
+.cameraScreen .element {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  border-color: white;
+}
+
+.cameraScreen .topLeft {
+  top: 30px;
+  left: 30px;
+  border-top: solid 5px;
+  border-left: solid 5px;
+}
+
+.cameraScreen .topRight {
+  top: 30px;
+  right: 30px;
+  border-top: solid 5px;
+  border-right: solid 5px;
+}
+
+.cameraScreen .bottomLeft {
+  bottom: 30px;
+  left: 30px;
+  border-bottom: solid 5px;
+  border-left: solid 5px;
+}
+
+.cameraScreen .bottomRight {
+  bottom: 30px;
+  right: 30px;
+  border-bottom: solid 5px;
+  border-right: solid 5px;
+}
+
+.cameraScreen .recording {
+  position: absolute;
+  top: 50px;
+  right: 60px;
+  color: #000;
+  display: flex;
+  align-items: center;
+}
+
+.cameraScreen .recording .circle {
+  height: 15px;
+  width: 15px;
+  background-color: rgb(182, 25, 25);
+  border-radius: 50%;
+  margin-right: 5px;
+  animation: blink ease-in-out alternate infinite 0.5s;
+}
+
+@keyframes blink {
+  from {
+    background-color: rgba(182, 25, 25 100);
+  }
+  to {
+    background-color: rgba(182, 25, 25, 0);
+  }
+}
