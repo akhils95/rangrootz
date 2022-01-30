@@ -16,6 +16,7 @@ const ContactUs = () => {
                 <div className = "element bottomRight"></div>
                 <div className = "recording"><div className="circle"></div> Recording</div>
             </div>
+            <div className="contactPage">Info will be added soon.</div>
         </div>
     );
 }
