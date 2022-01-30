@@ -119,16 +119,12 @@ const ImageViewer = (image) => {
     });
 
     const handleUserKeyPress = (event) => {
-        switch (event.key) {
-            case 'Escape':
-                document.getElementById('close').click();
-                break;
-            case 'ArrowRight':
-                document.getElementById('next').click();
-                break;
-            case 'ArrowLeft':
-                document.getElementById('previous').click();
-                break;
+        if (event.key === 'Escape') {
+            document.getElementById('close').click();
+        } else if (event.key === 'ArrowRight') {
+            document.getElementById('next').click();
+        } else if (event.key === 'ArrowLeft') {
+            document.getElementById('previous').click();
         }
     }
 
