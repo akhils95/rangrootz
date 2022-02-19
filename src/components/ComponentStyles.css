@@ -147,4 +147,8 @@
   .menuItem {
     display: none;
   }
+
+  .closeIcon {
+    height: 15px;
+  }
 }

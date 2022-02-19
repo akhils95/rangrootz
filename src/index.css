@@ -51,3 +51,9 @@ a {
 ::-webkit-scrollbar-thumb:hover {
   background: rgb(26, 26, 26);
 }
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+}

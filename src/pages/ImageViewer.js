@@ -5,7 +5,7 @@ import { closeIcon, rightIcon, leftIcon } from '../assets/Icons/Icons';
 
 const ImageViewer = (image) => {
 
-    const [openImage, setOpenImage] = useState(H1);
+    const [openImage, setOpenImage] = useState(image);
 
     const imageSequence = [H1,H2,H3,H4,V1,V2,V3,V4,H5,H6,H7,H8,V5,V6,V7,V8,H9,H10,H11,H12,V9,V10,V11,V12,H13,H14,H15,H16,V13,V14,V15,V16];
 
@@ -161,7 +161,7 @@ const ImageViewer = (image) => {
             <a id='close' href="/portfolio">
                 <img className='closeIcon' src={closeIcon} alt='CLOSE' />
             </a>
-            <img src = { openImage } alt = {image.image} />
+            <img src = { openImage } alt = {image.image} loading = 'lazy'/>
             <div className = "imageCover">
                 <img id='previous' className='nextPreviousIcon' src={ leftIcon } alt='PREVIOUS' onClick={previousImage} />
                 <img id='next' className='nextPreviousIcon' src={ rightIcon } alt='NEXT' onClick={nextImage} />

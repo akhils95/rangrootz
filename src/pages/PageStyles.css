@@ -106,9 +106,20 @@ a {
 .nextPreviousIcon {
   width: 40px;
   cursor: pointer;
+  filter: opacity(50%);
+}
+
+.nextPreviousIcon:hover {
+  filter: opacity(100%);
 }
 
 .extraPad {
   padding-top: 100px;
   padding-bottom: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  .nextPreviousIcon {
+    width: 20px;
+  }
 }
