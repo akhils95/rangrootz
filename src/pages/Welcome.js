@@ -9,7 +9,6 @@ const Welcome = () => {
             <div className="bannerCover">
                 <h1 className="logo">
                     <span className="logoFont1">Rangrootz</span>
-                    <span> </span>
                     <span className="logoFont2">Production</span>
                 </h1>
                 <h3>
